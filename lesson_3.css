@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+.awesome-section {
+    margin: 67px auto 108px;
+    font-size: 0;
+    width: 1150px;
+}
+
+.awesome-section-title {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 57px;
+    margin-top: 100px;
+    color: #212121;
+}
+
+.awesome-section-subtitle {
+    font-size: 14px;
+    color: #86878B;
+}
+
+.awesome-block {
+     display: inline-block;
+     width: 350px;
+     font-size: 16px;
+     margin-right: 32px;
+     padding: 0 25px;
+}
+
+.awesome-block:last-child {
+    margin-right: 0;
+}
+
+.awesome-block h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.img-wrapper {
+    width: 23px;
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    margin: 0 auto 20px;
+}
+
+.lamp-icon {
+    background-image: url("./light.svg"); 
+}
+
+.keyboard-icon {
+    background-image: url("./keyboard.svg"); 
+}
+
+.lightning-icon {
+    background-image: url("./lightning.svg"); 
+}
+
+
+.awesome-block p {
+    font-size: 14px;
+}
+
+.design-section {
+    background-image: url("./city-background.png");
+    /* padding-top: 76px;
+    padding-bottom: 38px; */
+}
+
+.design-section-cover {
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 76px;
+    padding-bottom: 38px;
+}
+
+.design-section-title {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 0 auto 76px;
+    color: #FFFFFF;
+}
+
+.design-section-subtitle {
+    color: #FFFFFF;
+    margin: 30px auto;
+}
+
+.design-section-button {
+    background-color: transparent;
+    border: 1px solid;
+    border-color: #FFFFFF;
+    padding: 11px 26px;
+    text-align: center;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin: 0 auto 0;
+    cursor: pointer;
+}
