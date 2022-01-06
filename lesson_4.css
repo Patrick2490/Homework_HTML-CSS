@@ -3,12 +3,12 @@
     box-sizing: border-box;
 }
 
-body {
+.awesome-section {
     text-align: center;
     font-family: 'Open Sans';
 }
 
-.awesome-section {
+.awesome-div {
     margin: 67px auto 108px;
     font-size: 0;
     width: 1150px;
@@ -41,7 +41,7 @@ body {
     margin-right: 0;
 }
 
-.awesome-block h3 {
+.awesome-block h6 {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -75,7 +75,10 @@ body {
     font-size: 14px;
 }
 
+
 .design-section {
+    text-align: center;
+    font-family: 'Open Sans';
     background-image: url("./city-background.png");
     /* padding-top: 76px;
     padding-bottom: 38px; */
@@ -117,6 +120,7 @@ body {
 }
 
 footer {
+    text-align: center;
     background-color: #000000;
     padding-top: 30px;
     padding-bottom: 15px;
